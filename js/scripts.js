@@ -7,11 +7,11 @@ $(document).ready(function() {
 
     if (userFood === "american" && userHoroscope === "aries") {
       $("img").hide();
-      $(".donald-trump").show();
+      $("#results #donald-trump").show();
     } else if (userFood === "mexican" && userHoroscope ===
   "taurus") {
       $("img").hide();
-      $(".hillary").show();
+      $("#results #hillary").show();
     } else {
       alert("try again please!")
     }
